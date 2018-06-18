@@ -46,113 +46,7 @@ message.channel.send(`${message.author.username} this bot is stored at GitHub`)
    }
     
     
-    if (message.content === "hellagay") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://cdn.discordapp.com/attachments/423594008984682508/443586963203948554/Below_is_gay.png")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-    
-  if (message.content === "imp") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/media/267321/subaru-impreza-22b-sti-archived-test-review-car-and-driver-photo-604299-s-original.jpg?crop=1xw:1xh;center,center&resize=900:*")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-    
-    if (message.content === "86") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://shop.mycustomhotwheels.com/wp-content/uploads/2017/07/Initial-D-Ae86-racing-decals-for-all-scale-model-cars.jpg?a788e6&a788e6")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
 
-      if (message.content === "subarute") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://i.redditmedia.com/ouU-tyDW9o5ub01FAbofi6O7LpXo4ZOgj_U82DY0Vcg.jpg?w=960&s=8c09b350d85a21db89252faf6a3baec3")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-
-        if (message.content === "golf2") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://i.ytimg.com/vi/dmY9BkQGviE/maxresdefault.jpg")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-    
-          if (message.content === "sayorihang") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://vignette.wikia.nocookie.net/doki-doki-literature-club/images/2/2d/Sayori_Hanging_%28s_kill%29.png/revision/latest?cb=20171117231739")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-    
-           if (message.content === "justmonika") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnun3FeThwW0tgKszHsgDtqDwSbaA8odJue2nCcADAiKlMVsSbOQ")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-    
-            if (message.content === "yuricut") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://i.pinimg.com/originals/f2/30/14/f23014ff767d2af16454963f1e0cd226.jpg")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-    
-             if (message.content === "natsukisnap") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://i.ytimg.com/vi/A1RUsBluw4U/hqdefault.jpg")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-    
-                if (message.content === "gremlin") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://cbsnews3.cbsistatic.com/hub/i/r/2011/04/21/116ba1e3-a643-11e2-a3f0-029118418759/resize/620x465/65a2ff5281e84d447cbec15f678d797c/gremlin.jpg")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-    
-               if (message.content === "chervette") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://upload.wikimedia.org/wikipedia/commons/f/f6/1978_chevette.JPG")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-    
-                  if (message.content === "aztek") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2002-05_Pontiac_Aztek.jpg/1200px-2002-05_Pontiac_Aztek.jpg")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
                     if (message.content === "reee") {
                              const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
    let embed = new Discord.RichEmbed()
@@ -162,23 +56,7 @@ message.channel.send(`${message.author.username} this bot is stored at GitHub`)
    message.channel.send(embed)
   message.channel.send('***REEEEEEEEEEEEEEEEEEEEEEEEEEEEE!!!!***')
    }
-                 if (message.content === "sushi") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("http://i0.kym-cdn.com/photos/images/original/001/216/152/574.jpg")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-   message.channel.send(embed)
-   }
-                    if (message.content === "wikihow") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("http://i0.kym-cdn.com/photos/images/original/001/070/708/b46.jpg")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`);
-  message.channel.send('Please WikiHow, Dont')
-    message.channel.send(embed)
-         }
+
     
  //main helper   
     if(message.content.startsWith(prefix + 'help')){
@@ -212,116 +90,13 @@ const embed = new Discord.RichEmbed()
 message.author.send(embed);
 message.channel.send('extra commands have been sent ot your DMs :mailbox_with_mail:')
 }
- //carlist   
-            if(message.content.startsWith(prefix + 'carlist')){
-  const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-const embed = new Discord.RichEmbed()
-.setTitle("LeonsTestingBot likes cars, here have a list of some cars")
-.addField('imp', 'Subaru Impreza STI')
-.addField('86', 'AE86 Panda Trueno')
-.addField('subarute', 'Mighty Car Mods Subaru 02 Impreza WRX STI Ute')
-.addField('golf2', 'VolksWagen Golf MK2')
-.addField('gremlin', 'AMC Gremlin')
-.addField('chervette', 'Chevy Chervette')
-.addField('aztek', 'Pontiac Aztec')
-.addField('coming soon', 'coming soon')
-.setFooter(`${message.createdAt}`)
-.setColor(randomColor);
-message.author.send(embed);
-message.channel.send('Car list has been sent ot your DMs :mailbox_with_mail:')
-}
-//ddlc menu    
-        if(message.content.startsWith(prefix + 'ddlc')){
-  const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-const embed = new Discord.RichEmbed()
-.setTitle("LeonsTestingBot cares about all the dokis, so have some dokis")
-.addField('sayorihang', 'Oh no this cant be happening, we did leave her hanging a bit!')
-.addField('justmonika', 'a just monika text box')
-.addField('yuricut', 'Yuri, put away that knife')
-.addField('natsukisnap', 'PLAY WITH ME!')
-.setFooter(`${message.createdAt}`)
-.setColor(randomColor);
-message.author.send(embed);
-message.channel.send('dokis have been sent to your DMs :mailbox_with_mail:')
-}
-//quotes menu 
-            if(message.content.startsWith(prefix + 'quotes')){
-  const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-const embed = new Discord.RichEmbed()
-.setTitle("LeonsTestingBot likes quotes, have some handpicked quotes")
-.addField('oil', 'a car oil quote')
-.addField('heroes', 'a hero quote')
-.addField('avicii', 'quote from Wake me Up by Avicii')
-.addField('hungry', 'food please')
-.addField('quote', 'leon needs a quote')
-.addField('henlo', 'just a typo')
-.setFooter(`${message.createdAt}`)
-.setColor(randomColor);
-message.author.send(embed);
-message.channel.send('Handpicked quotes have been sent to your DMs :mailbox_with_mail:')
-}
-
 
 //responses   
              if(message.content.startsWith('hello')){
 message.channel.send(':wave:')
                message.channel.send('hey!')
 }
-                  if(message.content.startsWith('gm')){
-message.channel.send('Goodmorning :sunrise:')
-                  }
-    
-        if(message.content.startsWith('gn')){
-message.channel.send('goodnight')
-          message.channel.send(':crescent_moon:')
-}
-    
-       if(message.content.startsWith('bye')){
-message.channel.send('goodbye')
-         message.channel.send(':wave:')
-}
-    
-       if(message.content.startsWith('stop')){
-message.channel.send('Stop it,')
-message.channel.send('get some help!')
-}
-    
-//music related stuff
-       if(message.content.startsWith('mp3')){
-message.channel.send('no track loaded')
-message.channel.send('**<<**  ||  >  **>>** ')
-}
-    
-          if(message.content.startsWith('play some music')){
-message.channel.send('NO!')
-message.channel.send('just use a music bot')
-}
 
-//quotes
-          if(message.content.startsWith('oil')){
-message.channel.send('If there is no oil under the car, There is no oil in the car!')
-}
-
-              if(message.content.startsWith('heroes')){
-message.channel.send('"Lets be heroes, we’re all heroes or our own story"-Handsome Jack')
-}
-    
-              if(message.content.startsWith('avicii')){
-message.channel.send('"life`s a game and love is a prize" - Avicii')
-}
-    
-                  if(message.content.startsWith('hungry')){
-message.channel.send('"Im hungry" -Jade')
-}
-                      if(message.content.startsWith('quote')){
-message.channel.send('"I need a quote" -Leon')
-}
-                          if(message.content.startsWith('henlo')){
-message.channel.send('"Henlo? Hello!"')
-}
-                              if(message.content.startsWith('lol')){
-message.channel.send('Lol')
-}
  
 //invite 
             if(message.content.startsWith(prefix + 'invite')){

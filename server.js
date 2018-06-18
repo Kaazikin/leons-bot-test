@@ -46,7 +46,15 @@ message.channel.send(`${message.author.username} this bot is stored at GitHub`)
    }
     
     
-
+    if (message.content === "hellagay") {
+                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
+   let embed = new Discord.RichEmbed()
+  .setImage("https://cdn.discordapp.com/attachments/423594008984682508/443586963203948554/Below_is_gay.png")
+           .setColor(randomColor)
+              .setFooter(`${message.createdAt}`);
+   message.channel.send(embed)
+   }
+    
                     if (message.content === "reee") {
                              const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
    let embed = new Discord.RichEmbed()
@@ -91,13 +99,13 @@ message.author.send(embed);
 message.channel.send('extra commands have been sent ot your DMs :mailbox_with_mail:')
 }
 
+
 //responses   
              if(message.content.startsWith('hello')){
 message.channel.send(':wave:')
                message.channel.send('hey!')
 }
 
- 
 //invite 
             if(message.content.startsWith(prefix + 'invite')){
   const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
@@ -161,16 +169,6 @@ message.channel.send(embed)
 
       m.edit({embed});
    
-   if (message.content === "imp") {
-                             const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
-   let embed = new Discord.RichEmbed()
-  .setImage("https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/media/267321/subaru-impreza-22b-sti-archived-test-review-car-and-driver-photo-604299-s-original.jpg?crop=1xw:1xh;center,center&resize=900:*")
-           .setColor(randomColor)
-              .setFooter(`${message.createdAt}`)
-   message.channel.send(embed)
-   }
-
-     
 
 
 });

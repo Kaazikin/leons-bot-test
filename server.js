@@ -24,6 +24,11 @@ message.channel.send(`${message.author.username} this bot works!!!`)
     if(message.content.startsWith(prefix + 'storetest')){
 message.channel.send(`${message.author.username} this bot is stored at GitHub`)
 }
+   
+     if(message.content.startsWith(prefix + 'say')){
+const saymessage = args.join(" ")
+message.channel.send(saymessage)
+}
   
 
      if (message.content === "wat") {

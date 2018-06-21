@@ -111,9 +111,8 @@ message.channel.send('extra commands have been sent ot your DMs :mailbox_with_ma
 
 //responses   
              if(message.content.startsWith('hello')){
+              message.channel.send(`hey ${message.author.username}`)
 message.channel.send(':wave:')
-              message.channel.send(`${message.author.username} hey`)
-               message.channel.send('hey!')
 }
 
 //invite 

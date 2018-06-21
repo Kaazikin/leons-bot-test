@@ -21,8 +21,10 @@ console.log(`${client.user.username} is online in ${client.guilds.size} servers!
 message.channel.send(`${message.author.username} this bot works!!!`)
 }
 
-    if(message.content.startsWith(prefix + 'storetest')){
+    if(message.content.startsWith(prefix + 'sourcecode')){
 message.channel.send(`${message.author.username} this bot is stored at GitHub`)
+     message.channel.send(`just look at LeonVennik his GitHub account`)
+
 }
    
      if(message.content.startsWith(prefix + 'say')){

@@ -29,6 +29,13 @@ message.channel.send(`${message.author.username} this bot is stored at GitHub`)
 const saymessage = args.join(" ")
 message.channel.send(saymessage)
 }
+   
+   client.on('message', message => {
+   if (message.content.startsWith("||say ")) {
+      message.delete(1000); //Supposed to delete message
+      message.channel.send(message.content.slice(5, message.content.length));
+   }
+});
   
 
      if (message.content === "wat") {

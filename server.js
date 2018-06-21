@@ -5,7 +5,7 @@ const client = new Discord.Client({disableEveryone: true});
 client.on("ready", async () => {
 console.log(`${client.user.username} is online in ${client.guilds.size} servers!`);
 
-  client.user.setActivity(`${client.guilds.size} servers! | q!help`, { type: 'PLAYING', });
+  client.user.setActivity(`madness at ${client.guilds.size} servers! | q!help`, { type: 'PLAYING', });
 });
   client.on("message", async message => {
   if(message.author.bot) return;

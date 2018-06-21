@@ -26,16 +26,11 @@ message.channel.send(`${message.author.username} this bot is stored at GitHub`)
 }
    
      if(message.content.startsWith(prefix + 'say')){
+            message.delete(1000);
 const saymessage = args.join(" ")
 message.channel.send(saymessage)
 }
    
-
-   if (message.content.startsWith("testsay")) {
-      message.delete(1000); //Supposed to delete message
-      message.channel.send(message.content.slice(5, message.content.length));
-   }
-});
   
 
      if (message.content === "wat") {

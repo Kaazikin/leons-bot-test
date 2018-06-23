@@ -83,10 +83,7 @@ const embed = new Discord.RichEmbed()
 .addField('help', 'what you are seeing')
 .addField('test', 'tests if the bot is working')
 .addField('extra', 'shows u a list of extra shiny and nice features')
-.addField('carlist', 'list of great cars to impress all your chat friends')
-.addField('ddlc', 'some doki doki literature club things')
 .addField('ship', 'Ship menu, use q!ship only!')
-.addField('quotes', 'Quote list')
 .setFooter(`${message.createdAt}`)
 .setColor(randomColor);
 message.author.send(embed);

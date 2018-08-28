@@ -79,7 +79,7 @@ message.channel.send(saymessage)
     if(message.content.startsWith(prefix + 'help')){
   const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
 const embed = new Discord.RichEmbed()
-.setTitle("LeonsTestingBot help and for all the commands put q! in front")
+.setTitle("Just Another Bot help and for all the commands put q! in front")
 .addField('help', 'what you are seeing')
 .addField('test', 'tests if the bot is working')
 .addField('extra', 'shows u a list of extra shiny and nice features')
@@ -93,7 +93,7 @@ message.channel.send('commands have been sent ot your DMs :mailbox_with_mail:')
         if(message.content.startsWith(prefix + 'extra')){
   const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
 const embed = new Discord.RichEmbed()
-.setTitle("LeonsTestingBot extra memz")
+.setTitle("Just Another Bot extra memz")
 .addField('wat', 'wat woman')
 .addField('wat x3', 'wat woman x3')
 .addField('reee', 'pepe ree')
@@ -113,10 +113,10 @@ message.channel.send('extra commands have been sent ot your DMs :mailbox_with_ma
   const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
 const embed = new Discord.RichEmbed()
 .setTitle("click here to invite me!")
-.setURL("https://discordapp.com/oauth2/authorize?client_id=443569693345972234&permissions=8&scope=bot")
-.setFooter(`LeonsTestingBot |  ${message.createdAt}`)
+.setURL("https://discordapp.com/oauth2/authorize?client_id=482944181355151361&permissions=8&scope=bot")
+.setFooter(`Just Another Bot |  ${message.createdAt}`)
 .setColor(randomColor);
-message.channel.send("***Made By ***<@256396233655058452>***, With the help of ***<@434770808020402186>")
+message.channel.send("***Made By ***<@443750004943749143>***")
               message.channel.send("Want this bot to be in your server to?")
               message.channel.send("Wait a minute, ill give you a link to add me")
               message.channel.send("it should be around somewhere, Aah, i found it. there you go")
@@ -128,7 +128,7 @@ message.channel.send('***Got any questions? Feel free to send a DM to the creato
   const randomColor = "#000000".replace(/0/g, function () { return (~~(Math.random() * 16)).toString(16); });
 const embed = new Discord.RichEmbed()
 .setTitle("**What the hell, are you serious, u cant put people in a box or a container. Whats wrong with you!**")
-.setFooter(`LeonsTestingBot | ${message.createdAt}`)
+.setFooter(`Just Another Bot | ${message.createdAt}`)
 .setColor(randomColor);
 message.channel.send(embed)
 }
@@ -166,7 +166,7 @@ message.channel.send(embed)
       const embed = new Discord.RichEmbed()
 .setImage('https://cdn.discordapp.com/attachments/439712863733415946/439769744468606978/loading.gif')
       .setDescription(`Ping Messages \`${m.createdTimestamp - message.createdTimestamp} ms\`\nPing DiscordAPI: \`${ping} ms\``)
-  .setFooter(`LeonsTestingBot | ${message.createdAt}`)
+  .setFooter(`Just Another Bot | ${message.createdAt}`)
       .setColor("#47bec6");
 
       m.edit({embed});

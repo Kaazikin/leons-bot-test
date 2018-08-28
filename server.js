@@ -116,7 +116,7 @@ const embed = new Discord.RichEmbed()
 .setURL("https://discordapp.com/oauth2/authorize?client_id=482944181355151361&permissions=8&scope=bot")
 .setFooter(`Just Another Bot |  ${message.createdAt}`)
 .setColor(randomColor);
-message.channel.send("***Made By ***<@443750004943749143>***")
+message.channel.send("***Made By *** <@443750004943749143>")
               message.channel.send("Want this bot to be in your server to?")
               message.channel.send("Wait a minute, ill give you a link to add me")
               message.channel.send("it should be around somewhere, Aah, i found it. there you go")

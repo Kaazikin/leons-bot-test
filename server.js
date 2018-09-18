@@ -84,11 +84,14 @@ if(message.content === "kms") {
    const ayy = client.emojis.find("name", "thinking");
    message.reply(`${thinking} LMAO`);
 }
-if(message.content.startsWith('testcommand')){   
-message.channel.send("this is a test command, do u like it?")
+if(message.content.startsWith('poll')){   
               message.react("👍")
               message.react("👎")
               message.pin()
+}
+   if(message.content.startsWith('ppoll')){   
+              message.react("👍")
+              message.react("👎")
 }
     
  //main helper   

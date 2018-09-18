@@ -84,12 +84,12 @@ if(message.content === "kms") {
    const ayy = client.emojis.find("name", "thinking");
    message.reply(`${thinking} LMAO`);
 }
-if(message.content.startsWith('poll')){   
+if(message.content.startsWith('ppoll')){   
               message.react("👍")
               message.react("👎")
               message.pin()
 }
-   if(message.content.startsWith('ppoll')){   
+   if(message.content.startsWith('poll')){   
               message.react("👍")
               message.react("👎")
 }

@@ -4,6 +4,6 @@
               message.channel.send(`hey ${message.author.username}`)
 }
 if(message.content === "kms") {
-   const ayy = client.emojis.find("name", "ThinkNoose");
-   message.reply(`${ThinkNoose} LMAO`);
+   const ayy = client.emojis.find("name", "thinking");
+   message.reply(`${thinking} LMAO`);
 }

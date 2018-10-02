@@ -93,6 +93,19 @@ if(message.content.startsWith('ppoll')){
               message.react("👍")
               message.react("👎")
 }
+   
+   client.on('message', message => {
+    // If the message is '!rip'
+    if (message.content === '${482944181355151361}') {
+       
+        message.channel.send(`${message.author},`);
+       
+        message.channel.send(`${message.author},`);
+       
+        message.channel.send(`${message.author},`);
+       
+        message.channel.send(`${message.author},`);
+    }
     
  //main helper   
     if(message.content.startsWith(prefix + 'help')){

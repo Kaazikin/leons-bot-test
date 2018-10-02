@@ -94,7 +94,7 @@ if(message.content.startsWith('ppoll')){
               message.react("👎")
 }
    
-   client.on('message', message => {
+
     // If the message is '!rip'
     if (message.content === '${482944181355151361}') {
        

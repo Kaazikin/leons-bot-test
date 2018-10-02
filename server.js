@@ -96,7 +96,7 @@ if(message.content.startsWith('ppoll')){
    
 
     // If the message is '!rip'
-    if (message.content === '<{482944181355151361}') {
+   f(message.content.startsWith('@Just Another Bot')){
        
         message.channel.send(`${message.author},`)
         message.channel.send(`${message.author},`)      

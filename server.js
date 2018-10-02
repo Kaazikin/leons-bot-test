@@ -96,7 +96,7 @@ if(message.content.startsWith('ppoll')){
    
 
     // If the message is '!rip'
-   if(message.content.startsWith('<{482944181355151361}')){
+   if(message.content.startsWith('<482944181355151361>')){
                message.channel.send(`${message.author},`)
         message.channel.send(`${message.author},`)      
         message.channel.send(`${message.author},`)     
